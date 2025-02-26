@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    // required
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+
+    // Recommended
+    "allowArbitraryExtensions": true,
+    "verbatimModuleSyntax": true,
+
+    // Main config for project
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": "./src",
+    "paths": {
+      "@lib/*": ["./lib/*"]
+    },
+    "resolveJsonModule": true
+  }
+}
